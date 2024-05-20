@@ -1,0 +1,88 @@
+body{  
+    margin: 0;  
+}  
+
+.like{
+    height: 80px;
+    width: 80px;
+  }
+.po4444{
+  background-color: rgb(255, 255, 255);
+  display: inline;
+  }
+p{
+    display: inline;
+  }
+
+nav{  
+    height: 60px;  
+    display: flex;  
+    align-items: center;  
+    border-bottom: 1px solid grey;  
+    background-color: #E1EFF7;
+    padding: 0 20%;  
+}  
+a{  
+    display: flex;  
+    align-self: center;  
+    width: auto;  
+    font-size: 30px;  
+}  
+
+b{
+    display: block;
+    margin-block: 3vh;
+  }
+input{
+    font-size: 20px;
+    border: 0;
+    width: 100%;
+  }
+#posts{  
+    display: flex;  
+    justify-content: center;  
+}  
+#postsBox{  
+    width: 40%;  
+      
+}  
+.img{  
+    width: 100%;  
+}  
+.post{  
+    font-size: 30px;  
+    border: 1px solid grey;  
+    padding: 50px;  
+    margin: 30px 0;  
+}  
+.ava{  
+    width: 50px;  
+    height: 50px;  
+    border-radius: 100%;  
+    margin-right: 20px;  
+}  
+.avaBox{  
+    display: flex;  
+    align-items: center;  
+}  
+.likes{  
+    display: flex;  
+    align-items: center;  
+}  
+.like{  
+    margin-right: 10px;  
+} 
+.hidden{ 
+    display: none; 
+}
+.likeBtn {
+    margin-right: 10px;
+}
+.like {
+    height: 30%;
+    width: 30%;
+    cursor: pointer;
+}
+.likeText, .numberOfLikes {
+    margin: 0;
+}
