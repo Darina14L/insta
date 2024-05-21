@@ -26,6 +26,16 @@ a{
     font-size: 30px;  
 }  
 
+.a {
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: #grey;
+  padding: 7px 15px;
+  border-radius: 7px grey;  
+  width: auto; 
+  height: auto;
+}
 b{
     display: block;
     margin-block: 3vh;
