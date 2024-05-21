@@ -34,11 +34,7 @@ b{
     display: block;
     margin-block: 3vh;
   }
-input{
-    font-size: 20px;
-    border: 0;
-    width: 100%;
-  }
+
 #posts{  
     display: flex;  
     justify-content: center;  
