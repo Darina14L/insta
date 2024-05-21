@@ -36,12 +36,12 @@ let c=0;
 function like(i){
     c++;
     if(c%2!==0){
-        document.getElementsByClassName('fonlike')[i+1].style.backgroundColor = "red";
+        document.getElementsByClassName('po4444')[i+1].style.backgroundColor = "red";
     }
     else{
         let a = newPost.getElementsByClassName("a")[0] 
         a.setAttribute("onclick", "addComment(" + i + ")") 
-        document.getElementsByClassName('fonlike')[i+1].style.backgroundColor = "white";
+        document.getElementsByClassName('po4444')[i+1].style.backgroundColor = "white";
     }
 }
 
@@ -58,6 +58,6 @@ function addComment(i) {
         newComment.textContent = Text;
         List.appendChild(newComment);
     } else {
-        alert("Введите комментарий.");
+        alert("Пожалуйста, введите комментарий.");
     }
 }
