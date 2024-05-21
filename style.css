@@ -7,6 +7,10 @@ body{
     width: 80px;
   }
 
+p{
+    display: inline;
+  }
+
 nav{  
     height: 60px;  
     display: flex;  
@@ -26,7 +30,11 @@ b{
     display: block;
     margin-block: 3vh;
   }
-
+input{
+    font-size: 20px;
+    border: 0;
+    width: 100%;
+  }
 #posts{  
     display: flex;  
     justify-content: center;  
@@ -71,4 +79,7 @@ b{
     height: 30%;
     width: 30%;
     cursor: pointer;
+}
+.likeText, .numberOfLikes {
+    margin: 0;
 }
