@@ -42,10 +42,10 @@ function like(postIndex){
             function like(i){
                 c++;
                 if(c%2!==0){
-                    document.getElementsByClassName('po4444')[i+1].style.backgroundColor = "red";
+                    document.getElementsByClassName('')[i+1].style.backgroundColor = "red";
                 }
                 else{ 
-                    document.getElementsByClassName('po4444')[i+1].style.backgroundColor = "white";
+                    document.getElementsByClassName('')[i+1].style.backgroundColor = "white";
                 }
             }
             
@@ -53,15 +53,13 @@ function like(postIndex){
                 var Input = document.getElementById('input'+i);
                 var Text = Input.value;
                 Input.value = "";
-                if (Text.trim() === "фууу") {
-                    alert("сам фууу");
-                } 
+        
                 if (Text.trim() !== "") {
                     var List = document.getElementById('list'+i);
                     var newComment = document.createElement("b");
                     newComment.textContent = Text;
                     List.appendChild(newComment);
                 } else {
-                    alert("Пожалуйста, введите комментарий.");
+                    alert("Введите комментарий.");
                 }
             }
