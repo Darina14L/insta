@@ -48,16 +48,8 @@ function like(i){
 
 
 function addComment(i) {
-    var Input = document.getElementById('input'+i);
-    var Text = Input.value;
-    Input.value = "";
-
-    if (Text.trim() !== "") {
-        var List = document.getElementById('list'+i);
-        var newComment = document.createElement("b");
-        newComment.textContent = Text;
-        List.appendChild(newComment);
-    } else {
-        alert("введите комментарий.");
-    }
+ let likeCountElement = document.getElementsByClassName("numberOfLikes")[i+1];
+        let likeCount = parseInt(likeCountElement.textContent);
+        likeCount++;
+        likeCountElement.textContent = likeCount;
 }
