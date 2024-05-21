@@ -10,6 +10,11 @@ body{
   background-color: rgb(255, 255, 255);
   display: inline;
   }
+input{
+    font-size: 20px;
+    border: 0;
+    width: 100%;
+  }
 p{
     display: inline;
   }
