@@ -23,15 +23,6 @@ for(let i = 0; i < 100; i++){
     korobkaPostov.appendChild(newPost); 
 } 
 
-
-function like(postIndex){ 
-    let post = korobkaPostov.children[postIndex + 1]; // +1,
-    let numberOfLikes = post.getElementsByClassName("numberOfLikes")[0];
-    let currentLikes = parseInt(numberOfLikes.innerHTML);
-    currentLikes++;
-    numberOfLikes.innerHTML = currentLikes;
-}
-
 let c=0;
 function like(i){
     c++;
