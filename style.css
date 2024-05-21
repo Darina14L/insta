@@ -72,6 +72,6 @@ b{
     width: 30%;
     cursor: pointer;
 }
-.likeText, .numberOfLikes {
+.likeText{
     margin: 0;
 }
