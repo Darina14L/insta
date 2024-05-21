@@ -27,10 +27,10 @@ let c=0;
 function like(i){
     c++;
     if(c%2!==0){
-        document.getElementsByClassName('')[i+1].style.backgroundColor = "red";
+        document.getElementsByClassName('abc')[i+1].style.backgroundColor = "red";
     }
     else{
-        document.getElementsByClassName('')[i+1].style.backgroundColor = "white";
+        document.getElementsByClassName('abc')[i+1].style.backgroundColor = "white";
     }
 }
 
