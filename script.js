@@ -1,4 +1,10 @@
-let dataLikes = [41, 93, 14, 38]; 
+for(let i=0; i<a.length - 1; i++){
+    let min = a[0];
+    let minIndex = 0;
+    for(let i=0; i<a.length; i++){
+        if(min>a[i]){
+            min = a[i];
+            minIndex = i; let dataLikes = [41, 93, 14, 38]; 
 let dataTexts = ["Очень красивые цветы!", "Делаю свое портфолио))", "После дождя вышла радуга!"] 
 let dataImgs = ["post1.jpg", "site.jpg", "rainbow.jpg"] 
  
@@ -32,32 +38,30 @@ function like(postIndex){
     numberOfLikes.innerHTML = currentLikes;
 }
 
-let c=0;
-function like(i){
-    c++;
-    if(c%2!==0){
-        document.getElementsByClassName('po4444')[i+1].style.backgroundColor = "red";
-    }
-    else{
-        let a = newPost.getElementsByClassName("a")[0] 
-        a.setAttribute("onclick", "addComment(" + i + ")") 
-        document.getElementsByClassName('po4444')[i+1].style.backgroundColor = "white";
-    }
-}
-
-
-
-function addComment(i) {
-    var Input = document.getElementById('input'+i);
-    var Text = Input.value;
-    Input.value = "";
-
-    if (Text.trim() !== "") {
-        var List = document.getElementById('list'+i);
-        var newComment = document.createElement("b");
-        newComment.textContent = Text;
-        List.appendChild(newComment);
-    } else {
-        alert("Пожалуйста, введите комментарий.");
-    }
-}
+       let c=0;
+            function like(i){
+                c++;
+                if(c%2!==0){
+                    document.getElementsByClassName('po4444')[i+1].style.backgroundColor = "red";
+                }
+                else{ 
+                    document.getElementsByClassName('po4444')[i+1].style.backgroundColor = "white";
+                }
+            }
+            
+            function addComment(i) {
+                var Input = document.getElementById('input'+i);
+                var Text = Input.value;
+                Input.value = "";
+                if (Text.trim() === "фууу") {
+                    alert("сам фууу");
+                } 
+                if (Text.trim() !== "") {
+                    var List = document.getElementById('list'+i);
+                    var newComment = document.createElement("b");
+                    newComment.textContent = Text;
+                    List.appendChild(newComment);
+                } else {
+                    alert("Пожалуйста, введите комментарий.");
+                }
+            }
