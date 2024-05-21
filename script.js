@@ -1,4 +1,4 @@
-let dataLikes = [41, 93, 14]; 
+let dataLikes = [41, 93, 14, 38]; 
 let dataTexts = ["Очень красивые цветы!", "Делаю свое портфолио))", "После дождя вышла радуга!"] 
 let dataImgs = ["post1.jpg", "site.jpg", "rainbow.jpg"] 
  
@@ -36,12 +36,12 @@ let c=0;
 function like(i){
     c++;
     if(c%2!==0){
-        document.getElementsByClassName('fonlike')[i+1].style.backgroundColor = "red";
+        document.getElementsByClassName('')[i+1].style.backgroundColor = "red";
     }
     else{
         let a = newPost.getElementsByClassName("a")[0] 
         a.setAttribute("onclick", "addComment(" + i + ")") 
-        document.getElementsByClassName('fonlike')[i+1].style.backgroundColor = "white";
+        document.getElementsByClassName('')[i+1].style.backgroundColor = "white";
     }
 }
 
