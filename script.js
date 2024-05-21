@@ -30,8 +30,6 @@ function like(i){
         document.getElementsByClassName('')[i+1].style.backgroundColor = "red";
     }
     else{
-        let a = newPost.getElementsByClassName("a")[0] 
-        a.setAttribute("onclick", "addComment(" + i + ")") 
         document.getElementsByClassName('')[i+1].style.backgroundColor = "white";
     }
 }
